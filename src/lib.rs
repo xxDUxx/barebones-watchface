@@ -285,7 +285,7 @@ fn get_month_name(time: &WatchFaceTime) -> String {
             7  => "JUL",
             8  => "AUG",
             9  => "SEP",
-            10 => "OCT",
+            10 => "OKT",
             11 => "NOV",
             12 => "DEC",
             _  => "???",
