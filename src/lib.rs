@@ -60,9 +60,9 @@ pub struct BarebonesWatchFace {
     /// Label for Date: "MON 22 MAY 2020"
     pub date_label:      lvgl::Ptr,
     /// Label for Bluetooth State (Bluetooth Icon)
-    pub bluetooth_label: lvgl::Ptr,
+    //pub bluetooth_label: lvgl::Ptr,
     /// Label for Power Indicator (Charging & Battery)
-    pub power_label:     lvgl::Ptr,
+    //pub power_label:     lvgl::Ptr,
 }
 
 impl WatchFace for BarebonesWatchFace {
