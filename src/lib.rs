@@ -85,8 +85,8 @@ impl WatchFace for BarebonesWatchFace {
                 let lbl = label::create(screen, ptr::null()) ? ;  //  `?` will terminate the function in case of error
                 label::set_long_mode(lbl, label::LV_LABEL_LONG_BREAK) ? ;
                 label::set_text(     lbl, strn!("00:00")) ? ;     //  strn creates a null-terminated string
-                obj::set_width(      lbl, 80) ? ;
-                obj::set_height(     lbl, 50) ? ;
+                obj::set_width(      lbl, 240) ? ;
+                obj::set_height(     lbl, 200) ? ;
                 label::set_align(    lbl, label::LV_LABEL_ALIGN_CENTER) ? ;
                 obj::align(          lbl, screen, obj::LV_ALIGN_CENTER, 0, -30) ? ;
                 obj::set_style_local_text_font(lbl, label::LV_LABEL_PART_MAIN, obj::LV_STATE_DEFAULT, title_font) ? ;  //  Use large title font
